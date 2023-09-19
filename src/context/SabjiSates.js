@@ -3,10 +3,10 @@ import React, { useState } from "react";
 
 let BACKEND_LINK=process.env.BACKEND_LINK;
 
-// import { useNavigate } from "react-router-dom";
-
+// import { useNavigate } from "react-router-dom"; 
+ 
 export default function SabjiSates(props) {
-  // const navigate = useNavigate();
+  // const navigate = useNavigate(); 
   const [setup_data, set_setup_data] = useState([]);
   const [setup_customer, set_setup_customer] = useState([]);
   const [setup_veges, set_setup_veges] = useState([]);
